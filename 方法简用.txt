@@ -1,0 +1,11 @@
+字符串：
+number转string : number.toString()
+
+字符串截取：str.substring(start,end)
+
+数组：                                
+arry转string：arry.toString()
+
+数组切割（1）：arry.slice(start,end)  (start：开始位置，-1表示最后一个元素。end：不包含本身的结束，负数从尾部开始算起)  注：不修改数组，返回子数组
+
+数组切割（2）：arry.splice(start,many,item) （start:开始位置。many:删除几个。item:添加新的）  注：修改原数组

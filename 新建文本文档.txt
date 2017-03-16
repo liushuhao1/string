@@ -1,0 +1,20 @@
+$scope.updateTemplate = function (item,preHeader) {
+         if(item.html.indexOf("<span id=\"9999\"") == -1){
+          var span = "<p><span id=\"9999\" style=\"display: none !important; font-size:0; line-height:0\">"+preHeader+"</span></p>"
+          item.html = span + item.html
+        }else {
+          if(preHeader){
+             var indexStart = item.html.indexOf("<span id=\"9999\"")
+             var indexOver = item.html.indexOf('</span>')
+             indexStart = indexStart + 77
+             var left = item.html.substring(0,indexStart)
+             var right = item.html.substring(indexOver)
+             item.html = left +preHeader+ right
+          }else {
+             var indexStart = item.html.indexOf("<span id=\"9999\"")
+             var indexOver = item.html.indexOf('</span>')
+             indexStart = indexStart + 77
+             var del = item.html.substring(indexStart,indexOver)
+             item.html = item.html.replace(del,"")
+          }
+        }
