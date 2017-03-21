@@ -1,0 +1,4 @@
+像下级传参
+$rootScope.$broadcast('send',json)
+接收
+$rootScope.$on('send',function(event,value){})
