@@ -1,0 +1,3 @@
+var imgCheck = document.createElement("img")
+imgCheck.src = "../../../../img/click.png"
+imgCheck.style.width = '30px'

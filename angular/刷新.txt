@@ -1,0 +1,3 @@
+$state.go('',null,{
+   reload:true   
+} )

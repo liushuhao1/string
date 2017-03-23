@@ -1,0 +1,11 @@
+删除一个 oDiv
+oDiv.parentNode.removeChild(oDiv)
+
+删除多个节点
+var delElement = document.getElementsByClassName('signCheck')
+             for(var i=0;i<delElement.length;i++){
+               if(delElement[i] != null){
+                 delElement.parentNode.removeChild(delElement[i])
+               } 
+             }
+JQ： remove()
