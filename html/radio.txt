@@ -1,0 +1,3 @@
+<input type="radio" name="ownIP">已开通
+<input type="radio" name="ownIP">未开通
+同一个 name 是一组按钮

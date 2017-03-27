@@ -1,0 +1,2 @@
+box-shadow:10px 10px 5px color
+           左右位置，上下位置  5px:发散度  
