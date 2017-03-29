@@ -1,0 +1,8 @@
+¸¸£º
+  $rootScope.$on('domains'£¬domains)
+
+×Ó
+  $rootScope.$on('domains',function(event,value){
+    console.log("e",event)
+    console.log("va",value)
+  })

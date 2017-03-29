@@ -1,0 +1,32 @@
+setting
+
+{
+	"draw_white_space": "all",
+	"font_size": 20,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"preview_on_click": false,
+	"save_on_focus_lost": true,
+	"settings":
+	{
+		"expand_tabs_on_save": true
+	},
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
+
+
+
+key-bindings
+
+[
+	{ "keys": ["f1"], "command": "open_in_browser" },
+	{ "keys": ["f2"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	{ "keys": ["alt+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["alt+z"], "command": "redo" }
+]
+
