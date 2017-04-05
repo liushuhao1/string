@@ -1,0 +1,18 @@
+var modalInstance = $uibModal.open({
+                templateUrl: '/views/modal/resetApiKeySuccessModal.html',
+                controller: 'setting.resetApiKeySuccessCtr',
+                controllerAs: 'vm',
+                size:';lb'
+     ´«²Î       resolve: {
+                  apiUserList: function(){
+                    return list
+                  },
+                  apiKey: function(){
+                    return apiKey
+                  },
+                  timeout:function(){
+                    return vm.obj.timeout
+                  }
+                },
+                backdrop: 'static'
+              })

@@ -1,0 +1,5 @@
+messageBox.danger('请完善企业信息',0,true).then(function(){
+            $state.go("account.business",null,{
+              reload:true
+            })
+          })

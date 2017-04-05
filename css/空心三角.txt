@@ -1,0 +1,33 @@
+.bubble {
+        padding: 10px 0;
+        width: 318px;
+        font-size: 16px;
+        background: #ededed;
+        border: 2px solid #666;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        -moz-box-shadow:0 0 5px #888;
+        -webkit-box-shadow: 0 0 5px #888;
+        text-align: center;
+        position: relative;
+    }
+    .bubble-arrow {                                          实体三角
+        border-color:transparent transparent #666  transparent;
+        border-width: 10px;
+        border-style: solid;
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: 34px;
+        left: 151px;
+    }
+    .bubble-arrow-inner {                                    空心三角覆盖
+        border-color:transparent transparent #ededed  transparent;
+        border-width: 10px;
+        border-style: solid;
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: 30px;
+        left: 151px;
+    }

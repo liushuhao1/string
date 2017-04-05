@@ -1,0 +1,12 @@
+<ui-select ng-model="labelList.selected" on-select="selectLabel(labelList.selected.labelId)">
+    <ui-select-match placeholder="{{labelList.selected.labelName || 'all'}}">{{$select.selected.labelName}}</ui-select-match>
+    <ui-select-choices refresh="searchLable($select.search)" refresh-delay="100" repeat="item in labelList | filter: $select.search">
+        <span>{{item.labelName}}</span>
+    </ui-select-choices>
+</ui-select>
+
+
+item.key as 传给 ng-model 的值      as item for    item:显示的值
+<select class="form-control" ng-model="vm.obj.timeout" ng-options="item.key as item for item in vm.loseTimeArr">
+                 <option value="">请选择失效时间</option>
+             </select>

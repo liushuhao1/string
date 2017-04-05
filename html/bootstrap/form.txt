@@ -1,0 +1,6 @@
+ <form class="form-horizontal col-sm-12 col-md-6 col-lg-6 mt-20" role="form">
+     <div class="form-group"></div>
+         <label class="control-label">
+         <select class="form-control"></select>     form-control == select || input
+     <div class="form-group"></div>
+</form>
