@@ -1,0 +1,3 @@
+ui-sref=".edit(::{id: item.id})    .  ×·¼ÓÂ·ÓÉ
+sendAround/template
+sendAround/template/edit/4658   

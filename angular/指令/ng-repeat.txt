@@ -1,0 +1,1 @@
+['高校','高校','高校']" ng-repeat="word in words track by $index"

@@ -1,0 +1,6 @@
+ng-class="{'active':item.selected}
+
+<p ng-class="{'price':!item.selected,'price-active':item.selected}">
+
+<div ng-class="{'col-md-6':item.id,'col-md-12':!item.id}">
+                 class名   表达式

@@ -1,0 +1,3 @@
+<ul class="nav-right-ul" ng-init="vm.changeCollapse = true" uib-collapse="vm.changeCollapse" ng-mouseover = "vm.changeCollapse = false" ng-mouseout = "vm.changeCollapse = true">
+
+uib-collapse 有个下拉的过程   = true 隐藏， = false 显示下拉过程

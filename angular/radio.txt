@@ -1,2 +1,4 @@
 <input id="done" type="radio" name="ownIP" ng-model="neteaseStatus" ng-value="1"><label for="done">已开通</label>
 选中 ng-value 的值传给 ng-model
+
+选中 ng-model = ng-value  相等的那个

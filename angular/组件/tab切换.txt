@@ -1,0 +1,8 @@
+<uib-tabset active="uiSel">
+                            <uib-tab index="1" select="selectTab(1)" heading="转到邮箱" active="mailActive">
+                               
+                            </uib-tab>
+                            <uib-tab index="2" select="selectTab(0)" heading="转到URL" active="urlActive">
+                              
+                            </uib-tab>
+                        </uib-tabset>

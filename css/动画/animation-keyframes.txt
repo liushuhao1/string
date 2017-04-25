@@ -1,0 +1,21 @@
+.switch-email:hover {
+    animation:aaa 2s ease-in-out infinite normal forwards;
+ 
+          1，动画名字 2.时间 3.函数（linear:匀速   ease-in-out:低速开始和结束）
+          4.动画次数 5. normal 动画结束从头开始。alternate 会反向
+}
+
+
+@keyframes aaa {
+    0% {
+         background-position: 0 0;         transform：translateX(x)
+    }
+    50% {
+        background-position:-89px 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+

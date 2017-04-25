@@ -1,0 +1,6 @@
+$event    
+
+$scope.showEmailContent = function(e){
+        e.stopPropagation();            子元素不执行父元素的事件
+       
+      }

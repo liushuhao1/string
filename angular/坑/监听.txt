@@ -1,0 +1,5 @@
+setTimeout(function() {
+  $scope.$apply(function() {
+    $scope.time = new Date();
+  });
+}, 1000);

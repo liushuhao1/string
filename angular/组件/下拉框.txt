@@ -1,0 +1,6 @@
+<select class="form-control" ng-options="item.value as item.text for item in vm.loseTimeArr" ng-model="vm.obj.timeout" style="display: inline-block;width:170px">
+        </select>
+
+vm.obj.timeout   ===  item.value    显示的是 item.text 
+
+默认选中第一项 vm.obj.timeout = vm.loseTimeArr[0].value   value 传的值

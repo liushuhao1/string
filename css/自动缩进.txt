@@ -1,1 +1,3 @@
 text-indent:1em
+
+.switch-each:hover .switch-each-arrow

@@ -2,7 +2,8 @@ var modalInstance = $uibModal.open({
                 templateUrl: '/views/modal/resetApiKeySuccessModal.html',
                 controller: 'setting.resetApiKeySuccessCtr',
                 controllerAs: 'vm',
-                size:';lb'
+                size:';lb'，
+                backdrop:true         false(无背景)  static（点击空白不消失）
      传参       resolve: {
                   apiUserList: function(){
                     return list

@@ -1,0 +1,3 @@
+transition 过渡
+transition:  property     duration   timing-function  delay;
+             过渡的元素   时间       函数曲线         延迟的

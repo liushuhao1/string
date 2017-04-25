@@ -1,0 +1,1 @@
+href="{{'/data/downloadSendData.do?statType=' + statType}}"

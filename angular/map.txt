@@ -1,0 +1,7 @@
+ var smsTypeMap = {
+      0:'普通短信',
+      1:'彩信',
+      2:'国际短信',
+      3:'语音验证码'
+    }
+{{::vm.smsTypeMap[item.msgType]}}  

@@ -1,0 +1,6 @@
+ <div ng-include data-src="'/views/email/sidebar/selectLabel.html'">
+ </div>
+
+ng-include需要的是一个变量
+
+exp: ，如果你在$scope中有这样一个变量 $scope.userShowTemplateUrl = "views/users/show.html"，并且把上面这句变为<div ng-include="userShowTemplateUrl"></div>就能正常工作了

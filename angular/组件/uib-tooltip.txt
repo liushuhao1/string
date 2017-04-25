@@ -1,0 +1,3 @@
+uib-tooltip="查看信誉度历史
+
+ui-sref="data.reputation"

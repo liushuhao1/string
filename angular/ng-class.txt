@@ -1,3 +1,0 @@
-ng-class="{'active':item.selected}
-
-<p ng-class="{'price':!item.selected,'price-active':item.selected}">
